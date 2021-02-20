@@ -82,3 +82,9 @@ EC2インスタンスのIPアドレスが表示されるのでそれを使って
 ```
 ssh -i ./id_rsa ubuntu@xxx.xxx.xxx.xxx
 ```
+
+## 削除
+
+```
+terraform destroy
+```
