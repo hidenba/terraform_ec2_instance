@@ -1,0 +1,40 @@
+<mxfile host="65bd71144e" modified="2021-02-20T04:05:48.339Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.53.2 Chrome/87.0.4280.141 Electron/11.2.1 Safari/537.36" version="14.2.4" etag="BjOFojD09Y9ZitFDXACC" type="embed">
+    <diagram id="YCDBZ_hXsJyykwboI9gk" name="ページ1">
+        <mxGraphModel dx="-496" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="22" value="" style="group;" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="1560" y="40" width="400" height="728" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="" style="rounded=1;arcSize=10;dashed=0;fillColor=none;gradientColor=none;strokeWidth=2;fontColor=#3D3D3D;" vertex="1" parent="22">
+                    <mxGeometry y="38" width="400" height="680" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="dashed=0;html=1;shape=mxgraph.aws3.virtual_private_cloud;fillColor=#F58536;gradientColor=none;dashed=0;" vertex="1" parent="22">
+                    <mxGeometry x="20" y="18" width="52" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#F59D56;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;" vertex="1" parent="22">
+                    <mxGeometry x="80" y="278" width="240" height="405" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="InternetGateway" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.internet_gateway;fillColor=#F58536;gradientColor=none;fontColor=#3D3D3D;" vertex="1" parent="22">
+                    <mxGeometry x="163.75" width="69" height="72" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="RouteTable" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.route_table;fillColor=#F58536;gradientColor=none;fontColor=#3D3D3D;" vertex="1" parent="22">
+                    <mxGeometry x="154" y="328" width="75" height="69" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="EC2" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;fontColor=#3D3D3D;" vertex="1" parent="22">
+                    <mxGeometry x="160" y="558" width="76.5" height="93" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="ElasticIP&lt;br&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elastic_ip;fillColor=#F58534;gradientColor=none;fontColor=#3D3D3D;" vertex="1" parent="22">
+                    <mxGeometry x="156.25" y="482" width="76.5" height="21" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="PublicSubnet" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#3D3D3D;" vertex="1" parent="22">
+                    <mxGeometry x="100" y="288" width="40" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Router" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.router;fillColor=#F58534;gradientColor=none;fontColor=#3D3D3D;" vertex="1" parent="22">
+                    <mxGeometry x="160" y="148" width="69" height="72" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
