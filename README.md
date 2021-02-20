@@ -4,6 +4,23 @@ Terraformを利用してEC2のインスタンスを起動してSSHで接続で�
 
 ## 手順
 
+### aws_cli のインストール
+
+```
+$ yay -Sy aws-cli
+```
+
+### awsの接続設定
+
+AWSのアクセスキーとキークレットアクセスキーを用意して接続設定をします
+```
+$ aws configure
+AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
+AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+Default region name [None]: ap-northeast-1
+Default output format [None]: json
+```
+
 ### terraform のインストール
 
 ```
