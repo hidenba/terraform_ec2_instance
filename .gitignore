@@ -1,0 +1,4 @@
+iac/.terraform/*
+iac/.terraform.*
+iac/terraform.*
+iac/id_*
